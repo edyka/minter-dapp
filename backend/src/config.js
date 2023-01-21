@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Eternal Blocks";
-const description = "Edddd";n
+const description = "Welcome to the exciting world of Eternal Blocks! NFT project that will take you on a journey of discovery and adventure. Join us on a mysterious worldwide journey, solve the puzzle, advance to the next level and earn exclusive perks!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -61,7 +61,7 @@ const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a singl
 const PUBLIC_MINT_START_DATE = "2023-01-27T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2023-01-21T16:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2023-01-26T16:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC"; // Address that will receive the royaltys
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -69,12 +69,12 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ['0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC','0xE1f4A97Bb0D1E4CdDb7BFBBcB0eC57b4b94f805d','0xc2a2b32b71fE1adC51eAAaf6DD8fbc39fbed296A']; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x1aE5f7c4D12F94831871650FAbF4a81C87d1AC91"; // If you want to manually include it
+let CONTRACT_ADDRESS = "contract here"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Generic Description"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Welcome to the exciting world of Eternal Blocks! NFT project that will take you on a journey of discovery and adventure. Join us on a mysterious worldwide journey, solve the puzzle, advance to the next level and earn exclusive perks!"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
@@ -92,7 +92,7 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "EB",
   seller_fee_basis_points: 0, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "http://eternalblocksnft.com/",
   creators: [
