@@ -7,13 +7,13 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Edo Test";
-const description = "To je moj description";
+const namePrefix = "Eternal Blocks";
+const description = "Edddd";n
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 15,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "http://eternalblocksntf.com/", // Replace with your website or remove this line if you do not have one.
+  external_url: "http://eternalblocksnft.com/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -69,7 +69,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ['0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC','0xE1f4A97Bb0D1E4CdDb7BFBBcB0eC57b4b94f805d','0xc2a2b32b71fE1adC51eAAaf6DD8fbc39fbed296A']; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x6a74a3E6A707d2CB0eA09ab0f24ed1B2f50F5814s"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x1aE5f7c4D12F94831871650FAbF4a81C87d1AC91"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
@@ -94,7 +94,7 @@ try {
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 0, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "http://eternalblocksntf.com/",
+  external_url: "http://eternalblocksnft.com/",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
