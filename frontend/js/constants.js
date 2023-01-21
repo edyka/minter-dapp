@@ -3,8 +3,7 @@ const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Eternal Blocks by Dx0xE";
 const welcome_h2 = "Welcome to";
-const welcome_p = 'Join a mysterious journey through 7 World continents to solve the puzzle, advance to the next level and earn exclusive perks! 
-'Connect MetaMask and Mint your future NOW!';
+const welcome_p = 'Join a mysterious journey through 7 World continents to solve the puzzle, advance to the next level and earn exclusive perks! Connect MetaMask and Mint your future NOW!';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
