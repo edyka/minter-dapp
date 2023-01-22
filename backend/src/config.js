@@ -6,9 +6,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 
 const network = NETWORK.eth;
 
-// General metadata for Ethereum
-const namePrefix = "Eternal Blocks";
-const description = "Welcome to the exciting world of Eternal Blocks! NFT project that will take you on a journey of discovery and adventure. Join us on a mysterious worldwide journey, solve the puzzle, advance to the next level and earn exclusive perks!";
+// General metadata for Ethereum for minted images
+const namePrefix = "Eternal Block"; // ime slike
+const description = "Welcome to the exciting world of Eternal Blocks! NFT project that will take you on a journey of discovery and adventure. Join us on a mysterious worldwide journey, solve the puzzle, advance to the next level and earn exclusive perks!"; //description in OpenSea
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -73,9 +73,9 @@ let CONTRACT_ADDRESS = "contract here"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_TITLE = 'Eternal Blocks by Dx0xE'; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Welcome to the exciting world of Eternal Blocks! NFT project that will take you on a journey of discovery and adventure. Join us on a mysterious worldwide journey, solve the puzzle, advance to the next level and earn exclusive perks!"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeicjiugeo2ib7jovvhduu4q3yvoz2cvdvbmkg2miiy5vpti7qxhfqa"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
