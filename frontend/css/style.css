@@ -90,6 +90,7 @@ header .container {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   line-height: 1.8;
+  text-align: justify;
 }
 
 .not-connected a {
