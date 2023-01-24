@@ -3,7 +3,7 @@ const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Eternal Blocks by Dx0xE";
 const welcome_h2 = "Welcome to";
-const welcome_p = 'Join a mysterious journey through 7 World continents to solve the puzzle, advance to the next level and earn exclusive perks! Connect MetaMask and Mint your future NOW!';
+const welcome_p = 'Eternal Blocks NFT serves as an exclusive pass to embark on a mysterious journey across seven world continents. Each continent holds a secret mission that must be solved in order to advance to the next level - next continent mission! Those who successfully complete each mission, will be rewarded with exclusive perks from the eternal mystery box. In order to make it truly unique and exclusive, Mission 1 contains 777 spots only. Mission begins once all spots are filled! Don not miss out on this extraordinary adventure, grab your Eternal Blocks NFT and join the journey today!Join a mysterious journey through 7 World continents to solve the puzzle, advance to the next level and earn exclusive perks! Connect MetaMask and Mint your future NOW!';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
