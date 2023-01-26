@@ -1,0 +1,113 @@
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#mainHeader{
+    background-color: #000;
+    color: #D49F6A;
+}
+
+#mainNav{
+    background-color: #ccc;
+    color: black
+}
+#mainNav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#mainNav li{
+    display: inline;
+    padding: 5px 10px;
+}
+#mainNav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#mainnav li:hover {
+background: #fff;
+}
+#jumbo {
+    background-image: url('../images/0.png');
+    background-position: center center;
+    min-height: 200px;
+    text-align: center;
+}
+#jumbo h1{
+    color: #D49F6A;
+    font-size: 45px;
+    padding-top: 20px;
+    line-height: 1.6em;
+}
+#main{
+    color: #D49F6A;
+    float: right;
+    width: 60%;
+    padding: 0px 30px;
+    text-align: justify;
+    box-sizing: border-box;
+    
+}
+#sidebar{
+    color: #D49F6A;
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+#sidebar img{
+    width: 250%;
+    height: 250%;
+    
+    }
+    
+
+#mainFooter{
+    background-color: black;
+    color: #D49F6A;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#mainFooter a{
+    color: #D49F6A;
+    text-decoration: none;
+}
+@media (max-width: 600px){
+    #main, #sidebar {
+    width:100%;
+    float:none;
+    border:none;
+    }
+}
+/* Define button styles */
+.redirect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: #D49F6A;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Add hover effect */
+.redirect-button:hover {
+    background-color: #B88B5E;
+}
