@@ -57,7 +57,7 @@ const MINT_PRICE = 0.015; // Minting price per NFT. Goerli = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED! 
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2023-02-22T13:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2023-02-29T13:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2023-02-22T12:06:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -73,8 +73,8 @@ let CONTRACT_ADDRESS = "contract here"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = 'Eternal Blocks by Dx0xE'; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Welcome to the exciting world of Eternal Blocks! NFT project that will take you on a journey of discovery and adventure. Join us on a mysterious worldwide journey, solve the puzzle, advance to the next level and earn exclusive perks!"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeicjiugeo2ib7jovvhduu4q3yvoz2cvdvbmkg2miiy5vpti7qxhfqa"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "Eternal Blocks NFT serves as an exclusive pass to embark on a mysterious journey across seven world continents. Solve the secret missions, advance to the next levels and earn exclusive perks!"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeibgdeynzosu7zc2rd77pjiemhvgalrpcnndxdhb55drdqildz2l5m"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
