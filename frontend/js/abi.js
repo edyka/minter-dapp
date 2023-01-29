@@ -1,4 +1,4 @@
-//allways copy contetnt from abi.js file to here
+//allways copy contetnt from abi.js file to here fd
 const abi = [
   {
     "inputs": [
