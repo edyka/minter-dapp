@@ -44,14 +44,14 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 10; // Your API key rate limit
-const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
+const CHAIN = 'ethereum'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Eternal Blocks by Dx0xE';
 const CONTRACT_SYMBOL = 'EB';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC';
-const TREASURY_ADDRESS = '0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC';
+const OWNER_ADDRESS = '0x5A89caf96441C98E84e5a4225E6010eA85243b42';
+const TREASURY_ADDRESS = '0x5A89caf96441C98E84e5a4225E6010eA85243b42';
 const MAX_SUPPLY = 777; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.015; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED! 
@@ -62,7 +62,7 @@ const PUBLIC_MINT_START_DATE = "2023-01-29T13:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2023-01-28T12:06:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 777; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC"; // Address that will receive the royaltys
+const ROYALTY_ADDRESS = "0x5A89caf96441C98E84e5a4225E6010eA85243b42"; // Address that will receive the royaltys
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ['0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC','0xE1f4A97Bb0D1E4CdDb7BFBBcB0eC57b4b94f805d','0xc2a2b32b71fE1adC51eAAaf6DD8fbc39fbed296A']; // only update if you want to manually set the whitelisted addresses
