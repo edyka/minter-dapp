@@ -7,21 +7,20 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum for minted images
-const namePrefix = "Eternal Block"; // ime slike
-const description = "Welcome to the exciting world of Eternal Blocks! NFT project that will take you on a journey of discovery and adventure. Join us on a mysterious worldwide journey, solve the puzzle, advance to the next level and earn exclusive perks!"; //description in OpenSea
+const namePrefix = "Eternal Blocks"; // ime slike
+const description = "Eternal Blocks NFT serves as an exclusive pass to embark on a mysterious journey across seven world continents. Solve the secret missions, advance to the next levels and earn exclusive perks!"; //description in OpenSea
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 777,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "EternalBlocks Pass" },
+      { name: "EternalBlocks Pass" },
+      { name: "EternalBlocks Pass" },
+      { name: "EternalBlocks Pass" },
+      
+      
     ],
   },
 ];
@@ -54,7 +53,7 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const OWNER_ADDRESS = '0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC';
 const TREASURY_ADDRESS = '0xe038AD3F4850196f9A903338276CEC6ad5FC3BeC';
 const MAX_SUPPLY = 777; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.03; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.015; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED! 
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
