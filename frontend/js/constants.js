@@ -1,5 +1,5 @@
 const contractAddress = "0xb02dDFB0f9C127Cb3B4d0D67E09E2F9012BF463E"; // Replace with your own contract address
-const chain = 'goerli'; // goerli, polygon, or ethereum 
+const chain = 'ethereum'; // goerli, polygon, or ethereum 
 
 const welcome_h1 = "Eternal Blocks by Dx0xE";
 const welcome_h2 = "Connect to MetaMask and Mint your future NOW!";
